@@ -11,8 +11,5 @@ exports = module.exports = function (num){
 
 	r = r * Math.pow(10, x);
 
-	// if r==0 => r=1
-	if (r === 0) r = 1;
-
 	return r;
 };
