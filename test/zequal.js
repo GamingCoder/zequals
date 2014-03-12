@@ -7,11 +7,11 @@ describe('Zequal', function () {
 		it('25 should zequal 30', function () {
 			should(zequal(25)).equal(30);
 		});
-		it('347 should zequal 350', function () {
-			should(zequal(25)).equal(30);
+		it('347 should zequal 400', function () {
+			should(zequal(347)).equal(400);
 		});
-		it('zequal(30*350) should zequal 10000', function () {
-			should(zequal(30*350)).equal(10000);
+		it('zequal(30*400) should zequal 10000', function () {
+			should(zequal(30*400)).equal(10000);
 		});
 	});
 	// Testing 1234.5789 * 98765.4321
