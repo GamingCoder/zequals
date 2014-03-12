@@ -1,12 +1,19 @@
 {
   "name": "zequals",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Zequal number",
   "main": "index.js",
   "scripts": {
     "test": "node node_modules/.bin/mocha -R spec"
   },
   "author": "Tobias Meyer",
+  "bugs": {
+    "url": "https://github.com/GamingCoder/zequals/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GamingCoder/zequals"
+  },
   "license": "MIT",
   "devDependencies": {
     "mocha": "~1.17.1",
