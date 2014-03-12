@@ -6,7 +6,7 @@ Zequalizing is a simple method to transform numbers like 97.253536 into simple n
 |-----------|--------|
 | 0         | 1      |
 | 1234,5678 | 1000   |
-| 123456789 |        |
+| 10001     | 10000  |
 
 ## License
 The MIT License (MIT)
