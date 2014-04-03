@@ -1,4 +1,4 @@
-# Zequals
+# Zequals [![Build Status](https://travis-ci.org/GamingCoder/zequals.png)](https://travis-ci.org/GamingCoder/zequals)
 Zequalizing is a simple method to transform numbers like 97.253536 into simple numbers like 100.
 
 ## Samples
