@@ -15,8 +15,5 @@
     "url": "https://github.com/GamingCoder/zequals"
   },
   "license": "MIT",
-  "devDependencies": {
-    "mocha": "~1.17.1",
-    "should": "~3.1.3"
-  }
+  "devDependencies": {}
 }
