@@ -4,7 +4,7 @@
   "description": "Zequal number",
   "main": "index.js",
   "scripts": {
-    "test": "node node_modules/.bin/mocha -R spec"
+    "test": "tape test/*.js"
   },
   "author": "Tobias Meyer",
   "bugs": {
@@ -15,5 +15,7 @@
     "url": "https://github.com/GamingCoder/zequals"
   },
   "license": "MIT",
-  "devDependencies": {}
+  "devDependencies": {
+    "tape": "~2.12.2"
+  }
 }
