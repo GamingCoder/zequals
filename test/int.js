@@ -11,7 +11,7 @@ test('0-9 should zequal 0-9', function(t) {
 
 // 10-99
 test('10-99', function(t) {
-	t.plan(89);
+	t.plan(990);
 	for (var i = 10; i < 1000; i++) {
 		var first = parseInt(i.toString()[0]);
 		var second = parseInt(i.toString()[1]);

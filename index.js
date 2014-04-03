@@ -2,14 +2,9 @@ exports = module.exports = function (num){
 	// Always round one time first
 	var r = Math.round(num);
 	// 10 to the power of x
-	var x = 0;
+	var ten = Math.pow(10, r.toString().length-1);
 	
-	while(r.toString().length !== 1){
-		x++;
-		r = Math.round(r/10);
-	}
+	
 
-	r = r * Math.pow(10, x);
-
-	return r;
+	return Math.round(r/ten)*ten;
 };
