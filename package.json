@@ -1,6 +1,6 @@
 {
   "name": "zequals",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Zequal number",
   "main": "index.js",
   "scripts": {
